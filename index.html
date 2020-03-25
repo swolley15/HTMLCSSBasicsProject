@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+<style>
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-width: 700px;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+ .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline !important;
+  margin: 10px;
+}
+
+#nav-bar-left {
+    float: left;
+}
+
+#nav-bar-right {
+    float: right;
+}
+
+.searchbar {
+    border-radius: 50px;
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+  flex-shrink: 0;
+  background-color: #eaeaea;
+  height: 40px;
+  padding-top: 20px;
+}
+
+.submit-container {
+  text-align: center;
+}
+
+form [type="submit"] {
+  background-color: #eaeaea;
+  margin-right: 20px;
+  border: #eaeaea;
+  border-radius: 5px;
+  color: #676666;
+  font-size: 14px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+</style>
+</head>
+<body>
+<header>
+    <ul id="nav-bar-left">
+    <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" alt="About">About</a></li>
+    <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" alt="Store">Store</a></li>
+    </ul>
+    <ul id="nav-bar-right">
+    <li><a href="https://mail.google.com/" alt="Gmail">Gmail</a></li>
+    <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" alt="Images">Images</a></li>
+    </ul>
+</header>
+<div class="content">   
+    <div>
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" class="center" style="
+    padding-top: 200px">
+</div>
+<div>
+    <input type="text" class="center searchbar"> 
+</div>
+<div class="submit-container">
+<form><input type="submit" value="Google Search">
+<input type="submit" value="I'm Feeling Lucky"></form>
+</div>
+</div>
+<footer>
+    <ul id="nav-bar-left">
+        <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" alt="Advertising">Advertising</a></li>
+        <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" alt="Business">Business</a></li>
+        <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" alt="How Search works">How Search works</a></li>    
+        </ul>
+        <ul id="nav-bar-right">
+        <li><a href="https://mail.google.com/" alt="Privacy">Privacy</a></li>
+        <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" alt="Terms">Terms</a></li>
+        <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" alt="Settings">Settings</a></li>
+    </ul>
+</footer>
+</body>
